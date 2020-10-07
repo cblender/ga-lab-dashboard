@@ -1,0 +1,92 @@
+.App {
+}
+
+.component {
+  width: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  background: #252525;
+  color: white;
+  border: 1px solid gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: #151515;
+}
+
+.c1rA {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  min-width: max-content;
+  z-index: 1000;
+}
+
+/* SIDEBAR COMPONENT */
+.c1rA > .component {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.c2r1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  min-height: max-content;
+  z-index: 500;
+}
+
+.c2r2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.flexBoxRow {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.gridBox {
+  display: grid;
+  grid-template-columns: 20vw 69vw;
+  grid-template-rows: 35vh 50vh;
+  grid-gap: 25px;
+  align-items: stretch;
+  margin: 10px;
+  padding: 10px;
+  background: #151515;
+}
+
+.row1 {
+}
+
+.row2 {
+}
+
+.title {
+  position: absolute;
+  background: none;
+  color: white;
+  font-size: 36px;
+  font-weight: lighter;
+  text-align: right;
+  text-decoration: none;
+  top: 20px;
+  right: 5.2vw;
+}
